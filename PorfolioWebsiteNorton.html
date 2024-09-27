@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f2ef;
+        }
+        h2 {
+            color: #cf7159;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background: #2a3e33;
+            color: #fff;
+        }
+
+        .name {
+            text-align: left;
+            margin-right: auto;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+            nav a:hover {
+                color: #cf7159;
+            }
+
+        main {
+            padding: 2rem;
+        }
+
+        .projhead {
+            text-align: center;
+        }
+
+        .backcon {
+            width: 100%;
+            height: 700px;
+            background-image: url('eternalFatherArt.WEBP');
+            background-size: cover;
+            background-position: center;
+            position: relative;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            width: 1000px;
+            height: 400px;
+            margin: 0 auto;
+            position: absolute;
+            top: 90%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+            .container .box {
+                width: calc(50% - 30px);
+                height: 400px;
+                background: #000;
+                margin: 15px;
+                box-sizing: border-box;
+                overflow: hidden;
+                border-radius: 10px;
+            }
+
+        .extra-background {
+            position: relative;
+            bottom: -100px; /* Adjust as needed */
+            left: 1300px; /* Adjust as needed */
+            width: 800px; /* Adjust as needed */
+            height: 650px; /* Adjust as needed */
+            background-image: url('monkeArt.WEBP');
+            background-size: cover;
+            
+            z-index: -1; 
+        }
+    </style>
+</head>
+<body>
+
+
+    <nav>
+        <span class="name">John D. Norton</span>
+        <a href="PorfolioWebsiteNorton.html">Home</a>
+        <a href="ResumePage.html">Resume</a>
+        <a href="ContactPage01.html">Contact</a>
+        <a href="WorksCited.html">Cited</a>
+    </nav>
+
+    <main>
+        <section id="home">
+            <h2>Home</h2>
+
+        </section>
+    </main>
+
+    <div class="projhead"><h2>Projects</h2></div>
+
+    <div class="backcon">
+        <div class="container">
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+            <div class="box"></div>
+        </div>
+    </div>
+    <div class="extra-background"></div>
+</body>
+</html>
